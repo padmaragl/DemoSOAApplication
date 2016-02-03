@@ -1,3 +1,3 @@
 <request xmlns="http://soa.aurorite.com/contract/echo">
-  <payload>payload1</payload>
+  <payload>payload123</payload>
 </request>
