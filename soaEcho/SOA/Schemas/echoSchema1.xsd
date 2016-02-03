@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ec="http://soa.aurorite.com/contract/echo"
+            targetNamespace="http://soa.aurorite.com/contract/echo" elementFormDefault="qualified">
+  <xsd:element name="request" type="ec:echoRequestType"/>
+  <xsd:element name="response" type="ec:echoResponseType"/>
+  <xsd:complexType name="echoRequestType">
+    <xsd:sequence>
+      <xsd:element name="payload" type="xsd:string" minOccurs="1"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="echoResponseType">
+    <xsd:sequence>
+      <xsd:element name="payload" type="xsd:string" minOccurs="1"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>
