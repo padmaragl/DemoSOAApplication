@@ -7,7 +7,6 @@
     <packaging>pom</packaging>
     <modules>
         <!-- Add project modules -->
-    	<module>Project1</module>
     	<module>soaEcho</module>
     </modules>
 </project>
